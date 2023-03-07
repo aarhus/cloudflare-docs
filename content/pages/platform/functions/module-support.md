@@ -10,7 +10,7 @@ Pages Functions provide support for several [module types](https://blog.cloudfla
 
 ### ECMAScript Modules
 
-ECMAScript modules (or in short ES Modules) are the official, [standardized](https://tc39.es/ecma262/#sec-modules) module system for JavaScript. They are the recommended mechanism for writing modular and reusable Javascript code. 
+ECMAScript modules (or in short ES Modules) is the official, [standardized](https://tc39.es/ecma262/#sec-modules) module system for JavaScript. They are the recommended mechanism for writing modular and reusable JavaScript code. 
 
 [ES Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) are defined by the use of `import` and `export` statements:
 
