@@ -74,7 +74,7 @@ filename: index.html
 </html>
 ```
 
-here is how you can import it inside your Function:
+Use the following script:
 
 ```js
 ---
