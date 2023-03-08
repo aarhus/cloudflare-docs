@@ -95,7 +95,7 @@ export async function onRequest() {
 
 ### Binary Modules
 
-Similarly, Binary Modules are a non-standardized way of importing binary data as an `ArrayBuffer`.
+Binary Modules are a non-standardized way of importing binary data as an `ArrayBuffer`.
 
 ```js
 ---
