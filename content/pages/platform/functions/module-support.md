@@ -60,7 +60,7 @@ export async function onRequest() {
 
 Text Modules are a non-standardized means of importing resources such as HTML files as a `String`.
 
-For example, given the following HTML file:
+To import the following HTML file into your Pages Functions code:
 
 ```html
 ---
