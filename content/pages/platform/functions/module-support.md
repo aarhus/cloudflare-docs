@@ -1,6 +1,6 @@
 ---
 pcx-content-type: how-to
-title: Module Support
+title: Module support
 weight: 13
 ---
 
