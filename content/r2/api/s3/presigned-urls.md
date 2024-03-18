@@ -82,8 +82,8 @@ If the Worker received a request for `https://example.com/uploads/dog.png`, it w
 import { AwsClient } from "aws4fetch";
 
 const r2 = new AwsClient({
-  accessKeyId: "",
-  secretAccessKey: "",
+  accessKeyId: "<ACCESS_KEY_ID>",       // These should be stored using Cloudflare secrets
+  secretAccessKey: "<ACCESS_KEY>",      // to ensure that they are kept secure
 });
 
 export default <ExportedHandler>{
@@ -100,8 +100,8 @@ export default <ExportedHandler>{
       return new Response("Missing a filepath", { status: 400 });
     }
 
-    const bucketName = "";
-    const accountId = "";
+    const bucketName = "<BUCKET_NAME>";  // These are obtainable from your dashboard
+    const accountId = "<ACCOUNT_ID>";    // 
 
     const url = new URL(
       `https://${bucketName}.${accountId}.r2.cloudflarestorage.com`
